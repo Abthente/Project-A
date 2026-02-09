@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour, IControllable
     private Interact _interact;
     private Rigidbody2D _rb;
     
+    public bool CanControl = true;
+    
     [SerializeField] private float _speed;
 
     private void Awake()
@@ -22,7 +24,10 @@ public class PlayerController : MonoBehaviour, IControllable
 
     private void FixedUpdate()
     {
-        Move(ReadMovement());
+        if (CanControl)
+        {
+            Move(ReadMovement());
+        }
     }
     
     private void OnEnable()
@@ -48,7 +53,10 @@ public class PlayerController : MonoBehaviour, IControllable
 
     public void Interact(InputAction.CallbackContext obj)
     {
-        _interact.MakeInterraction();
+        if (CanControl)
+        {
+            _interact.MakeInterraction();
+        }
     }
 
     private void OnDestroy()

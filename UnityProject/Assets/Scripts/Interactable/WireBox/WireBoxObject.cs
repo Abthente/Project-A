@@ -6,7 +6,7 @@ public class WireBoxObject : MonoBehaviour, IInterractable
     
     public void Interact()
     {
-        Debug.Log("Interact");
+        IInterractable.RemoveControl();
         
         Vector3 spawnPos = Camera.main.transform.position;
         spawnPos.z = 0;
