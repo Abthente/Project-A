@@ -29,15 +29,7 @@ public class WireBox : MonoBehaviour
     {
         if (connectedWires == wires.Count)
         {
-            connectedWires = 0;
-            
-            foreach (Wire wire in wires)
-            {
-                wire.ResetPosition();
-            }
-            
-            ShuffleWires();
-            
+            transform.parent.gameObject.GetComponent<IInterractable>().ReturnControl();
             Destroy(gameObject);
         }
     }
