@@ -2,16 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd5ba6ce-82e2-49e0-bde5-6b18585bb6b5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InteractBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InteractBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interactable/FuseBox.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interactable/FuseBox/Fuse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interactable/FuseBox/Fuse.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interactable/FuseBox/FuseBox.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interactable/FuseBox/FuseBox.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interactable/FuseBox/FuseBoxObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interactable/FuseBox/FuseBoxObject.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paints/DirtPart.aseprite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paints/DirtPart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paints/ExposedWire.aseprite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paints/ExposedWire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paints/KitchenSinkBackground.aseprite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paints/KitchenSinkBackground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paints/Maid.aseprite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paints/Maid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paints/Man.aseprite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paints/Man.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paints/Plate.aseprite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paints/Plate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paints/Sponge.aseprite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paints/Sponge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paints/WireBoxBackground.aseprite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paints/WireBoxBackground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paints/backTiles1.aseprite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paints/backTiles1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paints/box1.aseprite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paints/box1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paints/kitchenSink.aseprite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paints/kitchenSink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paints/wallsTiles1.aseprite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paints/wallsTiles1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/testLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/testLevel.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactable/KitchenSink/KitchenSinkObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interactable/KitchenSink/KitchenSinkObject.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactable/KitchenSink/Plate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interactable/KitchenSink/Plate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactable/WireBox/Wire.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interactable/WireBox/Wire.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactable/WireBox/WireBox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interactable/WireBox/WireBox.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactable/WireBox/WireBoxObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interactable/WireBox/WireBoxObject.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC/SteveDialogue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC/SteveDialogue.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Control/IControllable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Control/IControllable.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/IInterractable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/IInterractable.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +77,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="39QWjA6hsG9Rhzjkx8mMFRy0sWr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -108,6 +145,8 @@
       <workItem from="1770635733768" duration="254000" />
       <workItem from="1770638729158" duration="918000" />
       <workItem from="1770639855321" duration="1648000" />
+      <workItem from="1770730193304" duration="1796000" />
+      <workItem from="1770733797003" duration="344000" />
     </task>
     <servers />
   </component>

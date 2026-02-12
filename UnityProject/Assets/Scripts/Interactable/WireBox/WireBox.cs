@@ -29,7 +29,7 @@ public class WireBox : MonoBehaviour
     {
         if (connectedWires == wires.Count)
         {
-            transform.parent.gameObject.GetComponent<IInterractable>().ReturnControl();
+            transform.root.gameObject.GetComponent<InteractBehaviour>().ReturnControl();
             Destroy(gameObject);
         }
     }

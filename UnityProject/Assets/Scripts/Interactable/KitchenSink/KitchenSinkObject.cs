@@ -1,15 +1,9 @@
 using System;
 using UnityEngine;
 
-public class KitchenSinkObject : MonoBehaviour, IInterractable
+public class KitchenSinkObject : InteractBehaviour, IInterractable
 {
-    private GameObject player;
     public GameObject MG_KitchenSink_prefab;
-
-    private void Awake()
-    {
-        player = GameObject.FindGameObjectWithTag("Player");
-    }
 
     public void Interact()
     {
@@ -20,15 +14,5 @@ public class KitchenSinkObject : MonoBehaviour, IInterractable
         
         GameObject creatingMinigame = Instantiate(MG_KitchenSink_prefab, spawnPos, transform.rotation);
         creatingMinigame.transform.parent = transform;
-    }
-    
-    public void RemoveControl()
-    {
-        player.GetComponent<PlayerController>().CanControl = false;
-    }
-
-    public void ReturnControl()
-    {
-        player.GetComponent<PlayerController>().CanControl = true;
     }
 }

@@ -39,7 +39,7 @@ public class Plate : MonoBehaviour
     {
         if (_amountOfDestroyedPieces >= _amountOfPieces)
         {
-            transform.root.gameObject.GetComponent<KitchenSinkObject>().ReturnControl();
+            transform.root.gameObject.GetComponent<InteractBehaviour>().ReturnControl();
             Destroy(transform.parent.gameObject);
         }
     }
