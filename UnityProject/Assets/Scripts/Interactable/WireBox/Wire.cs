@@ -41,7 +41,7 @@ public class Wire : MonoBehaviour
 
     private void SendThatIsConnected()
     {
-        WireBox wireBox = transform.root.gameObject.GetComponent<WireBox>();
+        WireBox wireBox = transform.root.gameObject.GetComponentInChildren<WireBox>();
         wireBox.connectedWires += 1;
         wireBox.WinCondition();
     }
