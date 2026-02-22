@@ -25,17 +25,17 @@ public class Fuse : MonoBehaviour
 
             SetPosition(converted);
 
-            Vector3 endWireDifference = converted - _endWire.position;
+            //Vector3 endWireDifference = converted - _endWire.position;
             
-            if (endWireDifference.magnitude < 0.5f)
-            {
-                transform.position = _endWire.position;
-                _isDragged = false;
-                _isConnected = true;
-                SendThatIsConnected();
+            //if (endWireDifference.magnitude < 0.5f)
+            //{
+            //    transform.position = _endWire.position;
+            //    _isDragged = false;
+            //    _isConnected = true;
+            //    SendThatIsConnected();
                 
-                SetPosition(_endWire.position);
-            }
+            //    SetPosition(_endWire.position);
+            //}
         }
     }
 
